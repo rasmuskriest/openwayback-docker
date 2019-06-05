@@ -23,3 +23,11 @@ WARC/*
 *.cdxj
 www*/
 *.de
+
+*/file-db/*
+*/files1/*
+*/index/*
+*/index-data/*
+
+
+.env
