@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  openwayback:
+    volumes:
+      - ${INPUT_DIR}:/data
+    environment:
+      - WAYBACK_URL_HOST=${WAYBACK_URL_HOST}
+      - WAYBACK_URL_PREFIX=${WAYBACK_URL_PREFIX}
