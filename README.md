@@ -18,3 +18,8 @@ Please note that while the hostname does work to make a first connection and the
 
 For local and testing purposes: `docker compose -f docker-compose.yml -f docker-compose.override.yml up`
 For production use: `docker compose -f docker-compose.yml -f docker-compose.prod.yml up` (requires `.env`, see section above).
+
+## License
+
+Copyright (c) 2019 Rasmus Kriest
+The code in this project is licensed under MIT license.
