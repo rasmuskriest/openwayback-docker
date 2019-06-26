@@ -8,6 +8,7 @@ For production use, the usage of Docker's `.env` file is recommended. `docker-co
 
 ```
 INPUT_DIR=owb_dir
+WARC_DIR=warc_dir
 WAYBACK_URL_HOST=ip_of_host
 WAYBACK_URL_PREFIX=http://ip_of_host:8080
 ```
